@@ -5,7 +5,7 @@ const { filterRouter, cardsRouter } = require('./routes/index');
 const { Logger } = require('./helpers/index');
 const cors = require('cors');
 
-const app = express();
+const app = express();z
 dotenv.config();
 
 app.use(bodyParser.json({limit: '50mb', type: 'application/json'}));
